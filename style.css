@@ -1,0 +1,71 @@
+* {
+    color: #878787;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.bigger-text h1 {
+    color: #313131;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 35px;
+}
+
+.bigger-text {
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 0 70px;
+}
+
+.boxed-btn {
+    display: inline-block;
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color: #4752e9;
+    color: #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.shadow-gallery {
+    position: relative;
+}
+.shadow-gallery img:nth-child(2), .shadow-gallery img:nth-child(3) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.shadow-gallery img {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    box-shadow: 0 0 40px #bebec1;
+}
+
+.shadow-gallery img:nth-child(1) {
+    z-index: 1;
+    top: -75px;
+    left: 100px;
+}
+
+.shadow-gallery img:nth-child(2) {
+    z-index: 2;
+    top: 55px;
+    left: 450px;
+    height: 100%;
+}
+
+.shadow-gallery img:nth-child(3) {
+    z-index: 3;
+    width: 80%;
+    right: auto;
+    left: -30px;
+    bottom: -200px;
+    height: 75%;
+}
